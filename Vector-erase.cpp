@@ -16,11 +16,11 @@ int main() {
     }
     int t;
     cin >>t ;
-    arr.erase(arr.begin()+(t-1)); //removing value of vector based on 3rd input
+    arr.erase(arr.begin()+(t-1)); //removing value of vector based on 3th input
 
     int f1,f2;
     cin >> f1 >> f2;
-    arr.erase(arr.begin()+(f1-1),arr.begin()+(f2-1)); //removing value of vector based on 4rd input
+    arr.erase(arr.begin()+(f1-1),arr.begin()+(f2-1)); //removing value of vector based on 4th input
 
     int size = arr.size();
     cout << size << endl; //output size
